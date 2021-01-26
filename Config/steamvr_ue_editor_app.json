@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.oneeuroblueprint-14830424.ue4editor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "D:/UnrealEngine4/426/OneEuroBlueprint/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "OneEuroBlueprint-14830424 [UE Editor]"
+				}
+			}
+		}
+	]
+}
