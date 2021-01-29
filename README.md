@@ -21,9 +21,9 @@ Greg Corson for the Vive Puck model, Aiden Wilson on how to use LivelinkXR plugi
   d. select any Actor as "Child" ( Cine Camera, BP Camera, plane, lightsaber, mesh, etc).
 
 # Setup Filtered Tracker
-1. Add 3 "OneEurObj" to the scene. you need 3 objects for each Tracker_Filtered actor
+1. Add 6 "OneEurObj" to the scene. you need 6 objects for each Tracker_Filtered actor
 2. add "Tracker_Filtered" to the scene.
-  a. select EU X, EU Y , EU Z parameter as each of the OneEurObj actors
+  a. select EU X, EU Y , EU Z, EU XRoll, EU YPitch, EU ZYaw parameter as each of the OneEurObj actors
   b. you can play around with mincutoff, rate, and beta for stabilization ( i dont see much change, i might have bad default or global variable issue, but the default value works OK). 
   
   According to the paper:
