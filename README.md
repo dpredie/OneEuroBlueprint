@@ -1,15 +1,27 @@
-# OneEuroBlueprint
-One Euro Noise Filter in UE4.26 Blueprint for Vive Trackers. White paper (https://cristal.univ-lille.fr/~casiez/1euro/) By Géry Casiez
+# New to V2.0: 1EF
+1EF noise filter now works as a Blueprint Component, no need for complicated object filtering. 
 
-# Thank You:
-Greg Corson for the Vive Puck model, Aiden Wilson on how to use LivelinkXR plugin 
-
+see demo "1EF" map for setup. 
 
 # Prereqs
 1. Enable LiveLinkXR Plugin
 2. Add Preprocessor --> Transform Axis Switch --> set Orientation Axis Z --> X, X --> Z
 
-# Check Demo Map, OR:
+
+#Options
+- separate cutoff and beta for Location and Rotation
+- Button to Reinitialize after you update the parameters ( calls constructor )
+- disable and enable filter checkbox
+
+# 1EF BP Component 
+You can use this Component in your own blueprint to get 1EF filtering, check ViveTracker_1EF as sample implementation
+
+# Thank You:
+Greg Corson for the Vive Puck model, Aiden Wilson on how to use LivelinkXR plugin 
+
+
+# DEPRECATED: OneEuroBlueprint V1.0
+One Euro Noise Filter in UE4.26 Blueprint for Vive Trackers. White paper (https://cristal.univ-lille.fr/~casiez/1euro/) By Géry Casiez
 
 # Setup Unfiltered Tracker
 1. add "Tracker_Unfiltered" to the scene. the coordinate will be your SteamVR Root
@@ -33,3 +45,4 @@ Greg Corson for the Vive Puck model, Aiden Wilson on how to use LivelinkXR plugi
   a. select your Tracker_filtered actor as Parent. 
   b. Offset, Child, and Guide Visible works like before
   
+
