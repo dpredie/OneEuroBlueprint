@@ -1,11 +1,16 @@
-# New to V2.0: 1EF
+# New to V2.1: 1EF
 1EF noise filter now works as a Blueprint Component, no need for complicated object filtering. 
 
 see demo "1EF" map for setup. 
 
-# Prereqs
-1. Enable LiveLinkXR Plugin
-2. Add Preprocessor --> Transform Axis Switch --> set Orientation Axis Z --> X, X --> Z
+# Prerequisite for Vive Tracker
+- Enable LiveLinkXR Plugin
+- Add Preprocessor --> Transform Axis Switch --> set Orientation Axis Z --> X, X --> Z
+
+# Prerequisite for Realsense T265 Tracker
+- kougaku's RealSense OSC sender .exe ( https://github.com/kougaku/RealSenseOSC )
+- for 4.25 - Epic's OSC Plugin
+- for 4.26 - monsieurgustaf's OSC plugin ( Epic's 4.26 OSC do not work with this sender, you have to recompile this plugin https://github.com/monsieurgustav/UE4-OSC )
 
 
 #Options
@@ -14,7 +19,7 @@ see demo "1EF" map for setup.
 - disable and enable filter checkbox
 
 # 1EF BP Component 
-You can use this Component in your own blueprint to get 1EF filtering, check ViveTracker_1EF as sample implementation
+You can use this Component in your own blueprint to get 1EF filtering, check ViveTracker_1EF or T265_OSC_1EF as sample implementation
 
 # Thank You:
 Greg Corson for the Vive Puck model, Aiden Wilson on how to use LivelinkXR plugin 
