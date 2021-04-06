@@ -38,15 +38,13 @@ One Euro Noise Filter in UE4.26 Blueprint for Vive Trackers. White paper (https:
   d. select any Actor as "Child" ( Cine Camera, BP Camera, plane, lightsaber, mesh, etc).
 
 # Setup Filtered Tracker
-1. Add 6 "OneEurObj" to the scene. you need 6 objects for each Tracker_Filtered actor
-2. add "Tracker_Filtered" to the scene.
-  a. select EU X, EU Y , EU Z, EU XRoll, EU YPitch, EU ZYaw parameter as each of the OneEurObj actors
+1. add "Tracker_Filtered" to the scene.
   b. you can play around with mincutoff, rate, and beta for stabilization ( i dont see much change, i might have bad default or global variable issue, but the default value works OK). 
   
   According to the paper:
   "Note that parameters fcmin and beta have clear conceptual relationships: if high speed lag is a problem, increase beta; if slow speed jitter is a problem, decrease fcmin."
   
-3. add "TrackerOffsetter_Filtered"
+2. add "TrackerOffsetter_Filtered"
   a. select your Tracker_filtered actor as Parent. 
   b. Offset, Child, and Guide Visible works like before
   
