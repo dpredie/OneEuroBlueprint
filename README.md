@@ -22,7 +22,7 @@ see demo "1EF" map for setup.
 You can use this Component in your own blueprint to get 1EF filtering, check ViveTracker_1EF or T265_OSC_1EF as sample implementation
 
 # Thank You:
-Greg Corson for the Vive Puck model, Aiden Wilson on how to use LivelinkXR plugin 
+Greg Corson for the Vive Puck model, help in analyzing stabilization. Aiden Wilson on how to use LivelinkXR plugin 
 
 
 # DEPRECATED: OneEuroBlueprint V1.0
