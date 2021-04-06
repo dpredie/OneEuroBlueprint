@@ -13,7 +13,7 @@ see demo "1EF" map for setup.
 - for 4.26 - monsieurgustaf's OSC plugin ( Epic's 4.26 OSC do not work with this sender, you have to recompile this plugin https://github.com/monsieurgustav/UE4-OSC )
 
 
-#Options
+# Options
 - separate cutoff and beta for Location and Rotation
 - Button to Reinitialize after you update the parameters ( calls constructor )
 - disable and enable filter checkbox
